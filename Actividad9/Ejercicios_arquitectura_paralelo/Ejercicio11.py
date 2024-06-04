@@ -1,6 +1,6 @@
 #EJERCICIO 
 '''Usa MPI para recolectar y combinar los resultados de datos procesados en 
-paralelo utilizando OpenMP en cada nodo.'''
+paralelo utilizando OpenMP en cada nodo.''' #https://pypi.org/project/mpi4py/
 
 # Importamos el módulo MPI de la biblioteca mpi4py para utilizar MPI en Python
 from mpi4py import MPI
