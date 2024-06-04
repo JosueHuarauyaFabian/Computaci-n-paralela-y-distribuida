@@ -48,6 +48,8 @@ void* consumer(void* arg) {
     }
     pthread_exit(NULL); // Termina el hilo
 }
+https://upch.zoom.us/j/94683123956
+
 
 int main() {
     pthread_t prod_thread, cons_thread; // Declarar hilos para el productor y el consumidor
