@@ -1,0 +1,13 @@
+# Métricas de Rendimiento de la Replicación
+
+## Prueba 1:
+- Tiempo de replicación: 5 ms
+- Éxito de replicación: 100%
+
+## Prueba 2:
+- Tiempo de replicación: 7 ms
+- Éxito de replicación: 98%
+
+## Observaciones:
+- La replicación es rápida y eficiente, con un alto porcentaje de éxito.
+- Se recomienda aumentar los recursos del servidor para mejorar aún más el rendimiento.
