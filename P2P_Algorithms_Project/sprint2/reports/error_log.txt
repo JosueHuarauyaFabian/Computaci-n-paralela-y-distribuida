@@ -1,0 +1,17 @@
+# Registro de Errores y Soluciones
+
+## Error: Too many open files
+- Descripción: Se encontró este error durante las pruebas de estrés con más de 50 nodos.
+- Solución: Se incrementó el límite de archivos abiertos utilizando el comando `ulimit -n 10000`.
+
+## Error: ImportError en los scripts de prueba
+- Descripción: Problemas con las importaciones de los módulos en los scripts de prueba.
+- Solución: Se ajustaron las rutas de importación y se verificó la estructura del proyecto para asegurar que las importaciones sean correctas.
+
+## Error: Contexto de ZeroMQ no inicializado correctamente
+- Descripción: Error al inicializar el contexto de ZeroMQ en múltiples hilos.
+- Solución: Se revisó el manejo de los hilos y se aseguró que cada hilo cree su propio contexto de ZeroMQ de manera independiente.
+
+## Observaciones:
+- Es crucial monitorear los recursos del sistema y ajustar las configuraciones de límites según sea necesario.
+- Las soluciones implementadas han permitido superar los problemas encontrados, pero se recomienda realizar pruebas adicionales para asegurar la estabilidad del sistema bajo diferentes condiciones.

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Panel de Control P2P</title>
+    <link rel="stylesheet" type="text/css" href="/static/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <nav>
+        <a href="/">Inicio</a>
+    </nav>
+    <h1>Panel de Control P2P</h1>
+    <div class="container">
+        <canvas id="latencyChart"></canvas>
+        <canvas id="bandwidthChart"></canvas>
+    </div>
+    <div class="container">
+        <h2>Gestión de Nodos</h2>
+        <form id="addNodeForm">
+            <input type="text" id="nodeAddress" placeholder="Dirección del Nodo">
+            <button type="submit">Agregar Nodo</button>
+        </form>
+    </div>
+    <script src="/static/main.js"></script>
+</body>
+</html>
